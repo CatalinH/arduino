@@ -34,6 +34,15 @@ Components and code
 - Upload
 
 
+## Info
+Sketch uses 3670 bytes (11%) of program storage space. Maximum is 32256 bytes.
+Global variables use 31 bytes (1%) of dynamic memory, leaving 2017 bytes for local variables. Maximum is 2048 bytes.
+
+![Arduino showing humidity](board-humidity.jpg)
+![Arduino showing temperature](board-temperature.jpg)
+![Arduino connections for temperature and humidity](board-wire-up.jpg)
+![Arduino connections for temperature and humidity](board-wire-side.jpg)
+
 ## Helpers
 
 ### Other helpers
@@ -43,12 +52,3 @@ Components and code
 
 ### Improve write to display speed
 https://www.best-microcontroller-projects.com/arduino-digitalwrite.html?utm_content=cmp-true
-
-## Info
-Sketch uses 3670 bytes (11%) of program storage space. Maximum is 32256 bytes.
-Global variables use 31 bytes (1%) of dynamic memory, leaving 2017 bytes for local variables. Maximum is 2048 bytes.
-
-![Arduino showing humidity](board-humidity.jpg)
-![Arduino showing temperature](board-temperature.jpg)
-![Arduino connections for temperature and humidity](board-wire-up.jpg)
-![Arduino connections for temperature and humidity](board-wire-side.jpg)

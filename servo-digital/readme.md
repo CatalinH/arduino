@@ -19,13 +19,13 @@ Components and code
 - Select Arduino board and com port
 - Upload
 
-## Helpers
-- https://www.youtube.com/watch?v=QbgTl6VSA9Y
-- https://github.com/arduino-libraries/Servo/tree/master/examples/Knob
-- https://www.youtube.com/watch?v=XrEN1oszq_Y
-
 ## Info
 Sketch uses 2130 bytes (6%) of program storage space. Maximum is 32256 bytes.
 Global variables use 52 bytes (2%) of dynamic memory, leaving 1996 bytes for local variables. Maximum is 2048 bytes.
 
 ![Arduino digitally controlling servo motor](board-servo-digital.jpg)
+
+## Helpers
+- https://www.youtube.com/watch?v=QbgTl6VSA9Y
+- https://github.com/arduino-libraries/Servo/tree/master/examples/Knob
+- https://www.youtube.com/watch?v=XrEN1oszq_Y

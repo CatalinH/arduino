@@ -2,7 +2,7 @@
 
 ## Important notice
 Make sure IR receiver pins are correctly connected.<br>
-2 of common receivers datasheets attached: [VS-1838B](vs1838b-datasheet.pdf) and [TSOP-2238](vishay-tsop2238-datasheet.pdf) .
+2 of common receivers datasheets attached: [VS-1838B](vs1838b-datasheet.pdf) and [TSOP-2238](vishay-tsop2238-datasheet.pdf).
 
 ## Test ir receiver
 ### Components
@@ -28,3 +28,7 @@ Use remote to generate IR signals and see led blinking.
 ![ir receiver test pinout](ir-receiver-test-pinout.jpg)
 ![ir receiver test arduino connections](ir-receiver-test-arduino-connections.jpg)
 ![ir receiver test arduino](ir-receiver-test-arduino.jpg)
+
+## Helpers
+
+https://learn.adafruit.com/ir-sensor/testing-an-ir-sensor
