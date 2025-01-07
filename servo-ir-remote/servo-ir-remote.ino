@@ -18,12 +18,21 @@ void setup() {
 
 void loop() {
   if (IrReceiver.decode()){
+    Serial.println("=================================================================");
+    Serial.println("== Decoded raw data:");
+    Serial.println("-----------------------------------------------------------------");
     Serial.println(IrReceiver.decodedIRData.decodedRawData, HEX);
+    Serial.println("-----------------------------------------------------------------");
+    Serial.println("-----------------------------------------------------------------");
+    Serial.println("== ir result short:");
     IrReceiver.printIRResultShort(&Serial); // Print complete received data in one line
+    Serial.println("-----------------------------------------------------------------");
+    Serial.println("-----------------------------------------------------------------");
+    Serial.println("== ir send usage:");
     IrReceiver.printIRSendUsage(&Serial);   // Print the statement required to send this data
-    Serial.println("Other");
-    Serial.println(IrReceiver.decodedIRData.protocol);
-
+    Serial.println("-----------------------------------------------------------------");
+    // Serial.println("Other");
+    // Serial.println(IrReceiver.decodedIRData.protocol);
     IrReceiver.resume();
   }
 
